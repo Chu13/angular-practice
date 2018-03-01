@@ -6,11 +6,11 @@ import { ExampleService } from './../example.service';
   selector: 'app-services',
   templateUrl: './services.component.html',
   styleUrls: ['./services.component.css'],
-  providers: [ExampleService]
 })
 export class ServicesComponent implements OnInit {
 
   title: String;
+
   constructor(private _exampleService: ExampleService) { }
 
   ngOnInit() {

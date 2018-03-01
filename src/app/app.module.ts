@@ -6,6 +6,7 @@ import { routes } from './app.router';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
+import { ExampleService } from './example.service';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { ServicesComponent } from './services/services.component';
     HttpModule,
     routes
   ],
-  providers: [],
+  providers: [ExampleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
