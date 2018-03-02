@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ExampleService } from './example.service';
+import { CssBindingComponent } from './css-binding/css-binding.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    ServicesComponent
+    ServicesComponent,
+    CssBindingComponent
   ],
   imports: [
     BrowserModule,
